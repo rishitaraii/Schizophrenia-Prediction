@@ -5,10 +5,11 @@ Schizophrenia is a complex mental disorder characterized by hallucinations, delu
 
 ## Dataset & Sources
 The dataset used in this study consists of demographic and clinical symptom features that contribute to schizophrenia risk classification. The features capture various behavioural and physiological indicators such as fatigue levels, movement patterns, hygiene scores, pain levels, and cognitive impairments. The target variable classifies individuals into different schizophrenia risk categories, enabling the model to learn patterns associated with the disorder.
-![Dataset Overview](Images/Picture2.jpg)
-![Statistical Summary of the Dataset](Images/Picture3.jpg)
-![Correlation Matrix](Images/Picture4.jpg)
-![Histogram visualization](Images/Picture5.jpg)
+
+![Dataset Overview](Images/Picture2.png)
+![Statistical Summary of the Dataset](Images/Picture3.png)
+![Correlation Matrix](Images/Picture4.png)
+![Histogram visualization](Images/Picture5.png)
 
 ## Algorithm Used
 ### **1. Logistic Regression**
@@ -22,25 +23,25 @@ Random Forest is an ensemble learning method that builds multiple decision trees
 
 ## Hyperparameter Description and Training Process
 The table below summarizes the hyperparameters used in Logistic Regression and K-Nearest Neighbors (KNN):
-![Hyperparameter description](Images/Picture1.jpg)
+![Hyperparameter description](Images/Picture1.png)
 
 ## Model Training
 ### **(A) KNN Hyperparameter Tuning Graph**
 •	The accuracy of KNN was plotted against different values of n_neighbors.
 •	The optimal k value was selected based on the highest accuracy.
-![Graph: Accuracy vs. Number of Neighbors in KNN](Images/Picture6.jpg)
+![Graph: Accuracy vs. Number of Neighbors in KNN](Images/Picture6.png)
 ### **(B) Logistic Regression Training Convergence**
 •	The training process of Logistic Regression was visualized using the convergence plot.
 •	It shows how the model’s loss decreases over iterations.
-![Graph: Logistic Regression Convergence Curve](Images/Picture7.jpg)
+![Graph: Logistic Regression Convergence Curve](Images/Picture7.png)
 
 ## Results
 
-![Sample Prediction](Images/Picture11.jpg)
+![Sample Prediction](Images/Picture11.png)
 
 ## Confusion Matrices
 
-![Logistic Regression:](Images/Picture8.jpg)
-![Random Forest:](Images/Picture9.jpg)
-![KNN:](Images/Picture10.jpg)
+![Logistic Regression:](Images/Picture8.png)
+![Random Forest:](Images/Picture9.png)
+![KNN:](Images/Picture10.png)
 
