@@ -27,12 +27,14 @@ The table below summarizes the hyperparameters used in Logistic Regression and K
 
 ## Model Training
 ### **(A) KNN Hyperparameter Tuning Graph**
-•	The accuracy of KNN was plotted against different values of n_neighbors.
+•	The accuracy of KNN was plotted against different values of n_neighbors.<>br>
 •	The optimal k value was selected based on the highest accuracy.
+
 ![Graph: Accuracy vs. Number of Neighbors in KNN](Images/Picture6.png)
 ### **(B) Logistic Regression Training Convergence**
-•	The training process of Logistic Regression was visualized using the convergence plot.
+•	The training process of Logistic Regression was visualized using the convergence plot.<br>
 •	It shows how the model’s loss decreases over iterations.
+
 ![Graph: Logistic Regression Convergence Curve](Images/Picture7.png)
 
 ## Results
